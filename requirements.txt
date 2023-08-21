@@ -1,0 +1,6 @@
+python-dotenv
+pandas
+scikit-learn
+fastapi
+uvicorn
+fastapi_utils
