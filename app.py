@@ -24,6 +24,12 @@ class RunModel():
             return {"Category": "not Anomaly"}
         elif res == 1:
             return {"Category" : "Anomaly"}
+        
+
+@app.get("/")
+def root():
+    return {"message": "Welcome to the Machine Model API"}
+
 
     
 app.include_router(router)
